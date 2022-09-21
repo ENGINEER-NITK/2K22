@@ -523,11 +523,14 @@ header {
 }
 .timeline .swiper-slide .timeline-title {
   font-weight: 800;
-  font-size: 24px;
+  font-size: 34px;
   margin: 0 0 30px;
   opacity: 0;
   transform: translate3d(20px, 0, 0);
   transition: 0.2s ease 0.5s;
+}
+.timeline .swiper-slide .timeline-title span {
+  font-size: 24px;
 }
 .timeline .swiper-slide .timeline-text {
   font-size: 15px;
@@ -644,8 +647,11 @@ header {
     font-size: 32px;
   }
   .timeline .swiper-slide .timeline-title {
-    font-size: 36px;
+    font-size: 46px;
     margin: 0;
+  }
+  .timeline .swiper-slide .timeline-title span {
+    font-size: 24px;
   }
   .timeline .swiper-pagination {
     display: flex;
